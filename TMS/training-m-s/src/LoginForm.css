@@ -1,0 +1,25 @@
+.blue-bar {
+  position: fixed; /* Ensure the bar stays at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed */
+  background-color: #4245c4; /* Dark blue color */
+  z-index: 1000; /* Ensure it stays above other elements */
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  padding-left: 15px; /* Add padding for spacing */
+}
+
+.state-symbol {
+  height: 40px; /* Adjust size as needed */
+  max-height: 100%; /* Ensure it fits within the bar */
+}
+
+.bar-text {
+  color: white; /* White text color */
+  margin-left: 10px; /* Add spacing between the symbol and text */
+  font-size: 14px; /* Adjust font size as needed */
+  line-height: 0.5; /* Reduce line spacing */
+  text-align: left; /* Ensure text is left-aligned */
+}

@@ -10,7 +10,7 @@ function App() {
           <h1>Personnel and Training Devision</h1>
           <h1>Chief Secretary's Office</h1>
           <h1>Western Province - Sri Lanka</h1>
-          <LoginForm /> {/* Moved LoginForm here */}
+          <LoginForm /> {/* Moved LoginForm here */}.........
         </div>
       </div>
     </div>
